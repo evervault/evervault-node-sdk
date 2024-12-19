@@ -22,16 +22,16 @@ describe('Functions', () => {
   };
   const expected_response = {
     string: 'string',
-    integer: 'number',
-    float: 'number',
-    true: 'boolean',
-    false: 'boolean',
+    integer: 'string',
+    float: 'string',
+    true: 'string',
+    false: 'string',
     array: {
       0: 'string',
-      1: 'number',
-      2: 'number',
-      3: 'boolean',
-      4: 'boolean',
+      1: 'string',
+      2: 'string',
+      3: 'string',
+      4: 'string',
     },
     obj: { hello: 'string' },
   };
